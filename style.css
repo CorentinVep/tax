@@ -267,12 +267,6 @@ ul.lang img {
   }
 }
 /*---------------------- CAROUSEL ------------------------*/
-element.style {
-  transform: translate3d(-1903px, 0px, 0px);
-  transition: all 0.25s ease 0s;
-  width: 11418px;
-}
-
 .item {
   height: 550px;
   position: relative;
@@ -376,18 +370,6 @@ element.style {
   color: #fff;
 }
 
-section.slide1 {
-  background-image: url(../img/slide1.png);
-}
-
-section.slide2 {
-  background-image: url(../img/slide2.jpg);
-}
-
-section.slide3 {
-  background-image: url(../img/slide3.jpg);
-}
-
 .icon {
   border: 3px solid #FFFFFF;
   border-radius: 50%;
@@ -412,10 +394,6 @@ section.slide3 {
   height: 100%;
 }
 
-section.slide4 {
-  background-image: url(../img/slide4.jpg);
-}
-
 .img-box1 {
   height: 100px;
 }
@@ -425,25 +403,6 @@ section.slide4 {
   height: 100%;
   -o-object-fit: scale-down;
      object-fit: scale-down;
-}
-
-section.slide5 {
-  background-image: url(../img/slide5.png);
-}
-
-section.slide6 {
-  background-image: url(../img/slide6.jpg);
-  background-position: bottom;
-}
-
-section.slide7 {
-  background-image: url(../img/slide7.jpg);
-  background-position: bottom;
-}
-
-section.slide8 {
-  background-image: url(../img/slide8.jpg);
-  background-position: center;
 }
 
 section.slider {
@@ -545,6 +504,18 @@ section.slider p {
   .o2 {
     order: 1 !important;
   }
+}
+
+section.slide1 {
+  background-image: url(../img/slide1.png);
+}
+
+section.slide2 {
+  background-image: url(../img/slide2.jpg);
+}
+
+section.slide3 {
+  background-image: url(../img/slide3.jpg);
 }
 
 /*---------------------- BG BLUE ------------------------*/
@@ -938,39 +909,4 @@ footer ul li a {
   padding-right: 3px;
 }
 
-/*******************************************************/
-.carousel-control-prev {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 999;
-}
-@media only screen and (max-width: 768px) {
-  .carousel-control-prev {
-    display: none !important;
-  }
-}
-
-.carousel-control-prev {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 999;
-}
-@media only screen and (max-width: 768px) {
-  .carousel-control-prev {
-    display: none !important;
-  }
-}
-
-.carousel-control-prev span, .carousel-control-next span {
-  color: #fff;
-  font-size: 38px;
-}
-@media only screen and (max-width: 768px) {
-  .carousel-control-prev span, .carousel-control-next span {
-    display: none !important;
-  }
-}/*# sourceMappingURL=style.css.map */
+/*******************************************************//*# sourceMappingURL=style.css.map */
